@@ -6,3 +6,95 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+
+body {
+  background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.scc-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.message-type {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-style: bold;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+/* left off here working on form view background dimensions */
+.form-view-section {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+label {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.receive-msg-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  /* margin-bottom: 5px; */
+  background-color: #134d71;
+  color: #ffffff;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.radio-buttons-aff {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.radio-buttons-man {
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.meditate-icon-section {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 110px;
+  border-radius: 5px;
+  /* margin: 50px, 100px, 100px, 100px; */
+  margin-top: 65px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+
+}
+.meditate-icon {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+}
+.hidden {
+  display: none!important;
+}
+.expression-view {
+  background-color: #ffffff;
+}
