@@ -67,6 +67,7 @@ label {
   width: 200px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .meditate-icon-section {
