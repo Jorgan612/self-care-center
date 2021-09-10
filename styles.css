@@ -75,7 +75,6 @@ label {
   background-color: #ffffff;
   height: 110px;
   border-radius: 5px;
-  /* margin: 50px, 100px, 100px, 100px; */
   margin-top: 65px;
   margin-right: 300px;
   margin-bottom: 100px;
@@ -87,9 +86,17 @@ label {
   justify-content: center;
   width: 60px;
 }
+
 .hidden {
   display: none!important;
 }
+
 .expression-view {
   background-color: #ffffff;
+}
+
+.expression-tag {
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+  font-size: 20px;
 }

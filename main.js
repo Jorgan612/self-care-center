@@ -1,19 +1,38 @@
 // query selectors 👇
 
+var receiveMsgButton = document.querySelector('.js-receive-msg-button');
+var affirmationButton = document.getElementById('affirmation');
+var mantraButton = document.getElementById('mantra');
+var meditateImage = document.querySelector('.js-meditate-icon');
+var expressionView = document.querySelector('.js-expression-view');
+var expressionTag = document.querySelector('.js-expression-tag');
 
 // event listeners 👇
 
+receiveMsgButton.addEventListener('click', displayExpression);
 
 // functions 👇
 
+function displayExpression() {
+  event.preventDefault();
+  meditateImage.classList.add('hidden');
+  expressionView.classList.remove('hidden');
+  if (affirmation.checked === true) {
+    expressionTag.innerText = `${affirmations[getRandomExpression(affirmations)]}`;
+  } else {
+    expressionTag.innerText = `${mantras[getRandomExpression(mantras)]}`;
+  }
+};
 
-
+function getRandomExpression(array) {
+  return Math.floor(Math.random() * array.length);
+};
 
 var affirmations = [
   'I forgive myself and set myself free.',
   'I believe I can be all that I want to be.',
   'I am in the process of becoming the best version of myself.',
-  'I have the freedom % power to create the life I desire.',
+  'I have the freedom & power to create the life I desire.',
   'I choose to be kind to myself and love myself unconditionally.',
   'My possibilities are endless.',
   'I am worthy of my dreams.',
@@ -30,7 +49,6 @@ var mantras = [
 'Don\'t let yesterday take up too much of today.',
 'Every day is a second chance.',
 'Tell the truth and love everyone.',
-'I am free from sadness.',
 'I am free from sadness.',
 'I am enough.',
 'In the beginning it is you, in the middle it is you and in the end it is you.',
