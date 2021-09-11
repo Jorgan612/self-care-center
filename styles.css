@@ -43,9 +43,9 @@ body {
 }
 
 .form-section {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 5px;
+  /* display: auto; */
+  padding: 1%;
+  margin: auto;
 }
 
 .affirmation, .mantra {
@@ -60,7 +60,8 @@ label {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  margin: auto;
   background-color: #134d71;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
