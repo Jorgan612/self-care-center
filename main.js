@@ -1,5 +1,3 @@
-// query selectors 👇
-
 var receiveMsgButton = document.querySelector('.js-receive-msg-button');
 var affirmationButton = document.getElementById('affirmation');
 var mantraButton = document.getElementById('mantra');
@@ -7,11 +5,7 @@ var meditateImage = document.querySelector('.js-meditate-icon');
 var expressionView = document.querySelector('.js-expression-view');
 var expressionTag = document.querySelector('.js-expression-tag');
 
-// event listeners 👇
-
 receiveMsgButton.addEventListener('click', displayExpression);
-
-// functions 👇
 
 function displayExpression() {
   event.preventDefault();
